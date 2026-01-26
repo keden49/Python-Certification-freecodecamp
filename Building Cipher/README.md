@@ -53,24 +53,38 @@ git clone https://github.com/keden49/python-freecodecamp.git
 cd python-freecodecamp/"Building cipher"
 ```
 
-3. Running the code
+3. Running the code(terminal)
 ```
-python test.py
+python 
 ```
 ```python
 from test import encrypt, decrypt
+```
 
-# Encrypt a message
-encrypted = encrypt("Hello World", 3)
+```python
+encrypted = encrypt("Hello World", 3) # Encrypt a message
+```
+```python
 print(encrypted)  # "Khoor Zruog"
-
-# Decrypt a message
-decrypted = decrypt("Khoor Zruog", 3)
+```
+```python
+decrypted = decrypt("Khoor Zruog", 3)# Decrypt a message
+```
+```python
 print(decrypted)  # "Hello World"
 ```
-**Note: you can alter the parameters**
+**NOTE: YOU CAN ALTER THE PARAMETERS TO TEST DIFFERENT INPUTS**
 
-## ACKNOWLEDGEMENTS
-1. Freecodecamp
-2. Google Notebooks
+4. Existing python
+```
+exit()
+```
+
+
+##  ACKNOWLEDGEMENTS
+-Kevin Jayden: Lead Developer 
+
+-FreeCodeCamp: For the foundational project inspiration and curriculum.
+
+-Python Documentation: For insights into the str.maketrans and translate methods.
 
