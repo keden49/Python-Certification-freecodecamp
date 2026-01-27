@@ -29,5 +29,3 @@ def create_character(name, strength, intelligence, charisma):
     
     return f'{name}\nSTR {S}\nINT {I}\nCHA {C}'
 
-RPG = create_character('FATHELA', 4, 2, 1)
-print(RPG)
